@@ -1,7 +1,11 @@
 <h1>Index Posts!</h1>
 
 <ul>
-  <% @posts.each do |post| %>
-    <li><%= link_to post.title, post %></li>
+  <% if @posts.present? %>
+    <% @posts.each do |post| %>
+      <li><%= post.title %></li>
+    <% end %>
+  <% else %>
+    <li>No posts available here</li>
   <% end %>
 </ul>
