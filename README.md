@@ -51,7 +51,7 @@ By the end of this project, you will be able to:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/jambalong/members_only.git
+   git clone https://github.com/jambalong/members-only.git
    ```
 
 2. Navigate to the project directory:
